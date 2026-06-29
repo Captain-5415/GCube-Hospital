@@ -1,0 +1,19 @@
+.footer{
+    margin-top: 10px;
+    width:100%;
+    background:#0f766e;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+.footer h3{
+    font-size:18px;
+    margin-bottom:4px;
+}
+
+.footer p{
+    font-size:13px;
+    margin:2px 0;
+    color:#d1fae5;
+}

@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body.dark {
+    background: #121212;
+    color: #f5f5f5;
+}
+
+
+body.dark section {
+    background: transparent;
+}
+
+body.dark .card,
+body.dark .about-card,
+body.dark .feature-card,
+body.dark .department-card,
+body.dark .doctor-card,
+body.dark .service-card,
+body.dark .stat-card,
+body.dark .testimonial-card,
+body.dark .profile-card,
+body.dark .contact-form,
+body.dark .patient-form,
+body.dark .department,
+body.dark .box {
+    background: #1e293b;
+    color: white;
+    border: 1px solid #334155;
+}
+
+body.dark .stat-card h2,
+body.dark h1,
+body.dark h2,
+body.dark h3 {
+    color: #14b8a6;
+}
+
+body.dark p,
+body.dark li,
+body.dark label,
+body.dark span {
+    color: #d1d5db;
+}
+
+body.dark table {
+    background: #1e293b;
+    color: white;
+}
+
+body.dark thead {
+    background: #0f766e;
+}
+
+body.dark tbody tr:nth-child(even) {
+    background: #263548;
+}
+
+body.dark tbody tr:hover {
+    background: #334155;
+}
+
+body.dark td,
+body.dark th {
+    border-color: #475569;
+}
+
+body.dark input,
+body.dark textarea,
+body.dark select {
+    background: #263548;
+    color: white;
+    border: 1px solid #475569;
+}
+
+body.dark input::placeholder,
+body.dark textarea::placeholder {
+    color: #cbd5e1;
+}
+
+body.dark button {
+    background: #0f766e;
+    color: white;
+}
+
+body.dark button:hover {
+    background: #14b8a6;
+}
+
+body.dark .hero {
+    background:
+        linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)),
+        url("https://media.licdn.com/dms/image/v2/D5612AQH2heo6D80YCg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1706788460035?e=2147483647&v=beta&t=O2w2YpPzbLeG8JP9QCdvRqH15mURxG1-r8aqgZwCCYI");
+    background-size: cover;
+    background-position: center;
+}
+
+body.dark .primary-btn {
+    background: #14b8a6;
+    color: #ffffff;
+    border: 2px solid #14b8a6;
+}
+
+body.dark .primary-btn:hover {
+    background: #0f766e;
+    border-color: #0f766e;
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(20, 184, 166, .35);
+}
+
+body.dark .secondary-btn {
+    background: transparent;
+    color: #14b8a6;
+    border: 2px solid #14b8a6;
+}
+
+body.dark .secondary-btn:hover {
+    background: #14b8a6;
+    color: #121212;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(20, 184, 166, .35);
+}
+
+body.dark .hero h1,
+body.dark .hero p {
+    color: white;
+}
+
+body.dark .features {
+    background: #111827;
+}
+
+body.dark .testimonial {
+    background: #111827;
+}
+
+body.dark .cta {
+    background: #0f766e;
+}
+
+body.dark .cta p {
+    color: #e5e7eb;
+}
+
+body.dark .about {
+    color: white;
+}
+
+body.dark .departments {
+    background: transparent;
+}
+
+body.dark .search-box {
+    background: #263548;
+    color: white;
+}
+
+body.dark a {
+    color: white;
+}
+
+body.dark a:hover {
+    color: #14b8a6;
+}
+
+body.dark::-webkit-scrollbar {
+    width: 10px;
+}
+
+body.dark::-webkit-scrollbar-track {
+    background: #111827;
+}
+
+body.dark::-webkit-scrollbar-thumb {
+    background: #0f766e;
+    border-radius: 10px;
+}
+
+body.dark::-webkit-scrollbar-thumb:hover {
+    background: #14b8a6;
+}
+
+body.dark .symptoms label {
+    background: #263548;
+    color: white;
+}
+
+body.dark .symptoms label:hover {
+    background: #334155;
+}
+
+body.dark .result {
+    background: #263548;
+    border-left: 5px solid #14b8a6;
+}
+
+body.dark .result p {
+    color: #d1d5db;
+}

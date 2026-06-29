@@ -1,0 +1,188 @@
+.patients-page {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.patients-page h1 {
+    text-align: center;
+    color: #0f766e;
+    margin-bottom: 10px;
+}
+
+.patients-page>p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+
+.patient-form {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
+    margin-bottom: 30px;
+}
+
+.patient-form input,
+.patient-form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.patient-form input:focus,
+.patient-form select:focus {
+    outline: none;
+    border-color: #14b8a6;
+}
+
+
+.patient-form h3 {
+    margin-bottom: 15px;
+    color: #0f766e;
+}
+
+.symptoms {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.symptoms label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #f8fafc;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.symptoms label:hover {
+    background: #e2e8f0;
+}
+
+.symptoms input {
+    width: auto;
+    margin: 0;
+}
+
+
+.patient-form button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 12px;
+    margin-top: 15px;
+    transition: .3s;
+}
+
+.result {
+    margin-top: 25px;
+    padding: 20px;
+    border-left: 5px solid #14b8a6;
+    background: #f1f5f9;
+    border-radius: 10px;
+}
+
+.result h3 {
+    margin-bottom: 10px;
+}
+
+.result p {
+    margin: 8px 0;
+}
+
+
+.search-box {
+    width: 100%;
+    padding: 12px;
+    margin: 30px 0;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
+}
+
+thead {
+    background: #14b8a6;
+    color: white;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background: #f8fafc;
+}
+
+tbody tr:hover {
+    background: #ecfeff;
+}
+
+
+.edit-btn {
+    padding: 8px 20px;
+    background: #f59e0b;
+    color: white;
+    margin-right: 8px;
+    border-radius: 8px;
+    border: none;
+}
+
+.edit-btn:hover {
+    background: #d97706;
+}
+
+.delete-btn {
+    background: #ef4444;
+    color: white;
+}
+
+.delete-btn:hover {
+    background: #dc2626;
+}
+
+
+@media (max-width:768px) {
+
+    .patients-page {
+        width: 95%;
+        padding: 10px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+
+    .patient-form button {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .symptoms {
+        grid-template-columns: 1fr;
+    }
+}

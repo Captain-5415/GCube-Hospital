@@ -1,0 +1,182 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #0f766e;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    transition: 0.3s ease;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo-img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+
+.logo span {
+    font-size: 1.3rem;
+    font-weight: 900;
+    transition: color 0.3s ease, font-weight 0.3s ease;
+}
+
+.navbar.light .logo span {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.navbar.dark .logo span {
+    color: #ffffff;
+    font-weight: 700;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    background: rgba(255, 255, 255, 0.18);
+}
+
+.nav-links a.active {
+    background: white;
+    color: #0f766e;
+    font-weight: 600;
+}
+
+.theme-btn {
+    padding: 10px 20px;
+    border: 2px solid #0f766e;
+    border-radius: 30px;
+    background: transparent;
+    color: #0f766e;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.theme-btn:hover {
+    background: #0f766e;
+    color: #fff;
+}
+
+.navbar.light {
+    background: #0f766e;
+    color: white;
+}
+
+.navbar.light .nav-links a {
+    color: white;
+}
+
+.navbar.light .nav-links a.active {
+    background: white;
+    color: #0f766e;
+}
+
+.navbar.light .theme-btn {
+    background: white;
+    color: #0f766e;
+}
+
+.navbar.dark {
+    background: #1e293b;
+    color: white;
+}
+
+.navbar.dark .nav-links a {
+    color: white;
+}
+
+.navbar.dark .nav-links a:hover {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.navbar.dark .nav-links a.active {
+    background: #0f766e;
+    color: white;
+}
+
+.navbar.dark .theme-btn {
+    background: #0f766e;
+    color: white;
+}
+
+.navbar.dark .theme-btn:hover {
+    background: #14b8a6;
+}
+
+@media (max-width: 1024px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .navbar h2 {
+        font-size: 24px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        gap: 12px;
+    }
+
+    .nav-links li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links a {
+        display: block;
+        width: 100%;
+        padding: 12px;
+    }
+
+    .theme-btn {
+        width: 180px;
+    }
+
+}

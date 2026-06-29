@@ -1,0 +1,41 @@
+.doctor-details{
+    display:flex;
+    justify-content:center;
+    padding:50px 20px;
+}
+
+.profile-card{
+    width:450px;
+    background:white;
+    border-radius:15px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.profile-card img{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    margin-bottom:20px;
+}
+
+.profile-card h2{
+    color:#0f766e;
+    margin-bottom:20px;
+}
+
+.profile-card p{
+    margin:12px 0;
+    line-height:1.6;
+}
+
+.back-btn{
+    display:inline-block;
+    margin-top:25px;
+    background:#0f766e;
+    color:white;
+    text-decoration:none;
+    padding:10px 22px;
+    border-radius:8px;
+}
